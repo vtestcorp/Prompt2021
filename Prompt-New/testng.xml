@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite 1">
+
+	<test name="Sales Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.PS.SalesTest.CreditMemoAddNewDeleteTest" />
+			<class name="com.PS.SalesTest.CreditMemoTest" />
+			<class name="com.PS.SalesTest.CustomerDetailsTest" />
+			<class name="com.PS.SalesTest.RFQAddNewDeleteTest" />
+			<class name="com.PS.SalesTest.RFQTest" />
+			<class name="com.PS.SalesTest.SalesInvoiceAddNewDeleteTest" />
+			<class name="com.PS.SalesTest.SalesInvoiceTest" />
+			<class name="com.PS.SalesTest.SalesOrderTest" />
+			<class name="com.PS.SalesTest.SalesOrderAddNewDeleteTest" />
+			<class name="com.PS.SalesTest.SalesQuoteAddNewDeleteTest" />
+			<class name="com.PS.SalesTest.SalesQuoteTest" />
+		</classes>
+	</test>
+	 <!-->test name="Purchase Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.purchasetest.SupplierDetailsTest" />
+	 		<class name="com.purchasetest.PurchaseInvoiceDetailsTest" />
+			<class name="com.purchasetest.PurchaseRequestDetailsTest" />
+			<class name="com.purchasetest.PurchaseOrderDetailsTest" /> 
+		</classes>
+	</test>-->
+
+  <!-->test name="Finance Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.financetest.BalanceSheetTest" />
+	     	<class name="com.financetest.BusinessExpenseTest" />
+			<class name="com.financetest.JournalsTest" />
+			<class name="com.financetest.LedgerAccountsTest" />
+		    <class name="com.financetest.OpeningBalanceTest" />
+			<class name="com.financetest.ProfitLossTest" />
+			<class name="com.financetest.TrialBalanceTest" /> 
+		</classes>
+	</test>-->
+
+<!--	<test name="Inventory Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.inventorytest.ExtrasDetailsTest" />
+	 		<class name="com.inventorytest.ProductPriceDetailsTest" />
+			<class name="com.inventorytest.WareHouseTest" />
+			<class name="com.inventorytest.ProductsDetailsTest" />
+		</classes>
+	</test>-->
+
+	<!-->test name="Conversions Test">
+		<parameter name="Browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.conversionstest.POConversionsTest" />
+		</classes>
+	</test>-->
+
+</suite>
+    

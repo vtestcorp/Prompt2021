@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite 1]">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Purchase Test">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.purchasetest.PurchaseInvoiceDetailsTest"/>
+    </classes>
+  </test> <!-- Purchase Test -->
+  <test name="Purchase Test(failed)">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.purchasetest.PurchaseInvoiceDetailsTest">
+        <methods>
+          <include name="createReport"/>
+          <include name="CalculationPurchaseInvoice"/>
+          <include name="CreatePurchaseInvoice"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.purchasetest.PurchaseInvoiceDetailsTest -->
+    </classes>
+  </test> <!-- Purchase Test(failed) -->
+</suite> <!-- Failed suite [Suite 1] -->
